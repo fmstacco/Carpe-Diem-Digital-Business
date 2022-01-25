@@ -22,7 +22,7 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 280%
+    font-size: 200%
 }
 
 
@@ -53,3 +53,81 @@ h1, h2 {
                 border-bottom: 1px solid #3a3a3a;
             }
             
+            .section-about {
+                width: 100%;
+            }
+
+            .section-about .container-about { 
+                width: 80%;
+                display: block;
+                margin: 0px auto;
+                padding: 50px 0px;
+            }
+
+            .container-about .title-about {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 50px;
+           }
+
+           .container-about .title-about h1 {
+               text-transform: uppercase;
+               font-size: 35px;
+               color:#b86b77;  
+
+           }
+           .container-about .title-about h1::after {
+               content: "";
+               height: 5px;
+               width: 100px;
+               background-color: #f7f0ef;
+               border-radius: 25px;
+               display: block;
+               margin:auto;
+                          }
+
+.text-about {
+    float: left;
+    width: 400px;
+    text-align: left;
+}
+
+.image-about {
+    float: right;
+    width: 30%;
+    margin-right: 40px;
+}
+
+.image-about img {
+    width: 100%;
+    height: auto;
+}
+
+.content-about .text-about h3 { 
+    color:#222D44;
+    font-size: 17px;
+}
+
+.content-about .text-about p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color:#222D44;
+}
+
+.content-about .text-about .button {
+    margin-top: 50%;
+    
+
+}
+
+.content-about .text-about .button a {
+    text-decoration: none;
+    padding: 8px 25px; 
+    background-color:#b86b77;
+    border-radius: 40px;
+    color:#f7f0ef;
+    font-size: 18px;
+    letter-spacing:1.5px;
+
+}
