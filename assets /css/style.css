@@ -149,6 +149,7 @@ h1, h2 {
         display: block;
         margin:auto;
     }
+    }
     
 .content-about {
     float:none;
@@ -258,3 +259,4 @@ hr {
     background-color: #F4C8C8;
     transition: 1s ease;
 }
+
