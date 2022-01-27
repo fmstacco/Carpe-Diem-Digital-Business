@@ -82,7 +82,7 @@ nav {
                 width: 100%;
                 background: url('../images/hero-image.jpg') no-repeat center center;
                 background-color: #222D44;
-                 
+                margin-top:30px; 
                 animation-name: hero-zoom;
                 animation-duration: 5s;
                 animation-fill-mode: forwards;
