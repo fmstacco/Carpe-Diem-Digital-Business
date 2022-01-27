@@ -47,16 +47,26 @@ nav {
             }
 
     nav a{
-        width: 100px;
-        display:block; 
+        width: 120px;
         padding: 10px 10px;
+        display: inline-block;
         text-decoration: none;
         font-family:Roboto Slab;
         color:#222D44;
         text-align: center;
         text-transform: uppercase; 
         margin-top:10px;
+        line-height: 10px;
+        font-size: 100%;
+        letter-spacing: 2px;
+        margin-right: 30px;     
            }
+
+
+           
+    .active {
+        border-bottom: 0.5px solid #222D44;
+             }
 
            nav a:hover {
                 color:#222D44;
@@ -65,6 +75,29 @@ nav {
                 letter-spacing:0.5px;
             }
                      
+         
+
+                .hero-section {
+                height: 600px;
+                width: 100%;
+                background: url('../images/hero-image.jpg') no-repeat center center;
+                background-color: #222D44;
+                 
+                animation-name: hero-zoom;
+                animation-duration: 5s;
+                animation-fill-mode: forwards;
+            }
+
+            @keyframes hero-zoom {
+                from {
+                transform: scale(1.0);
+                }
+             
+                to {
+                    transform: scale(1.1);
+                }
+            }
+            
 
             .section-about {
                 width: 100%;
