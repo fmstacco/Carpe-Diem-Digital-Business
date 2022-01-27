@@ -307,6 +307,7 @@ hr {
     color:#F4C8C8;
     margin-top:20px;
     padding-top: 20px;
+
 }
 
 .footer h2 { 
@@ -320,4 +321,23 @@ hr {
     text-align: center;
     color:#F4C8C8;
     font-size: 90%;
+}
+
+.footer h4 { 
+    text-align: center;
+    color:#F4C8C8;
+    font-size: 110%;
+}
+.social {
+    align-items:center;
+         }
+
+.social i { 
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%; 
+    color: #F4C8C8;
+    align-items:center;
+    display: inline;
+      
 }
