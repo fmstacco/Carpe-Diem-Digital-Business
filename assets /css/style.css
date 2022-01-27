@@ -14,11 +14,7 @@ body {
     background-color: #f7f0ef;
 }
 
-    .logo img {
-        position: absolute;
-        
-    }
-
+  
 h1, h2 {
     font-family: "Roboto Slab", sans-serif;
     text-transform: uppercase;
@@ -36,40 +32,39 @@ nav {
         padding:0;
         margin: 0 0 0 150px;
         list-style: none;
-
+        margin-right: 35px;
     }
 
     li {
         float: right;
-        
+      
     }
 
     .logo img {
         position: absolute;
-        margin-top: 15px;
+        margin-top: 0px;
         margin-left: 10px;
             }
 
     nav a{
         width: 100px;
-        display: block;
-        padding: 20px 15px;
+        display:block; 
+        padding: 10px 10px;
         text-decoration: none;
         font-family:Roboto Slab;
         color:#222D44;
-        text-align: left; 
-            }
-
-
+        text-align: center;
+        text-transform: uppercase; 
+        margin-top:10px;
+           }
 
            nav a:hover {
-                border-bottom: 1px solid #3a3a3a;
+                color:#222D44;
+                background-color: #F4C8C8;
+                transition: 1s ease;
+                letter-spacing:0.5px;
             }
-
-            .active {
-                border-bottom: 1px solid #3a3a3a;
-            }
-
+                     
 
             .section-about {
                 width: 100%;
@@ -272,7 +267,7 @@ hr {
 }
 
  .button a:hover {
-    color:f7f0ef;
+    color:#f7f0ef;
     background-color: #F4C8C8;
     transition: 1s ease;
 }
