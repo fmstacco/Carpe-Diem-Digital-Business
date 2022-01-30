@@ -320,11 +320,31 @@ footer {
     color: #3a3a3a;
 }
 
-#formtitle {
-    font-family:  Roboto Slab, sans-serif;
-    color:#222D44;
-    margin-left: 7%;
+
+
+
+
+.container-form {
+    background-color: #f7f0ef;
+    height: 700px;
+    font-family: Roboto Slab, sans-serif;
+    font-size: 1em;
+    color:#F4C8C8;
+    position: relative; 
+    }
+
+.element-form {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
+
+    #formtitle {
+        font-family:  Roboto Slab, sans-serif;
+        color:#222D44;
+        margin-left: 7%;
+    }
 
 #formsubtitle {
     font-family:  Roboto Slab, sans-serif;
@@ -335,17 +355,6 @@ footer {
 .formgroup {
 border: 0;
 
-}
-
-.section-form {
-    background-color: #f7f0ef;
-    font-family: Roboto Slab, sans-serif;
-    font-size: 1em;
-    color:#b86b77;
-    margin-left: 36%;
-    margin-top: 2%; 
-    justify-content: center;
-    
 }
 
 input, select, textarea {
@@ -377,10 +386,10 @@ input, select, textarea {
         margin-right: 1em;
     }
 
-    .field input [type="text"], .field input [type="text"], .field select, .field textarea {
+    .field input[type="text"], .field input[type="email"], .field select, .field textarea {
         padding: 0.2em; 
-        border: 1px solid #b86b77;
-        box-shadow: 2px ;
+        border: 1px solid #222D44;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.2); 
         display:block;
     }
 
@@ -392,4 +401,14 @@ input, select, textarea {
         color:#f7f0ef;
         font-size: 18px;
         letter-spacing:1.5px;
+    }
+
+    .formbutton:hover {
+        color:#f7f0ef;
+        background-color: #F4C8C8;
+        transition: 1s ease;
+    }
+
+    .formbutton, select{
+        cursor: pointer;
     }
