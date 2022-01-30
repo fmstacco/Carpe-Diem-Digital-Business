@@ -301,43 +301,21 @@ hr {
     transition: 1s ease;
 }
 
-.footer { 
+footer {
     height: 350px;
-    background-color:#222D44;
-    color:#F4C8C8;
-    margin-top:20px;
-    padding-top: 20px;
-
 }
 
-.footer h2 { 
+.social-networks {
     text-align: center;
-    color:#f7f0ef;
-    font-size: 100%;
-    text-decoration: none;
 }
 
-.footer h3 { 
-    text-align: center;
-    color:#F4C8C8;
-    font-size: 90%;
+.social-networks > li {
+    display: inline;
 }
 
-.footer h4 { 
-    text-align: center;
-    color:#F4C8C8;
-    font-size: 110%;
-}
-.social {
-    align-items:center;
-         }
-
-.social i { 
+.social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%; 
-    color: #F4C8C8;
-    align-items:center;
-    display: inline;
-      
+    padding: 5%;
+    color: #3a3a3a;
 }
