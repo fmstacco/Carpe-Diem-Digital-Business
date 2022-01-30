@@ -319,3 +319,77 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+#formtitle {
+    font-family:  Roboto Slab, sans-serif;
+    color:#222D44;
+    margin-left: 7%;
+}
+
+#formsubtitle {
+    font-family:  Roboto Slab, sans-serif;
+    color:#222D44;
+    margin-left: 10%;
+}
+
+.formgroup {
+border: 0;
+
+}
+
+.section-form {
+    background-color: #f7f0ef;
+    font-family: Roboto Slab, sans-serif;
+    font-size: 1em;
+    color:#b86b77;
+    margin-left: 36%;
+    margin-top: 2%; 
+    justify-content: center;
+    
+}
+
+input, select, textarea {
+    font-family: Roboto Slab, sans-serif;
+    font-size: 1em;
+    color: #222D44;
+    border-radius: 5px;
+}
+
+.formbutton {
+    font-family: Roboto Slab, sans-serif;
+    font-size: 1em;
+    color: #222D44;
+    border-radius: 5px;
+    }
+
+    .field {
+    margin-bottom: 1em;
+    }
+
+    .field label { 
+        margin-bottom: 0.2em;
+        color:#222D44;
+        display: inline;
+    }
+
+    fieldset .field .formgroup {
+        float: left;
+        margin-right: 1em;
+    }
+
+    .field input [type="text"], .field input [type="text"], .field select, .field textarea {
+        padding: 0.2em; 
+        border: 1px solid #b86b77;
+        box-shadow: 2px ;
+        display:block;
+    }
+
+    .formbutton {
+        text-decoration: none;
+        padding: 8px 25px; 
+        background-color:#b86b77;
+        border-radius: 40px;
+        color:#f7f0ef;
+        font-size: 18px;
+        letter-spacing:1.5px;
+    }
