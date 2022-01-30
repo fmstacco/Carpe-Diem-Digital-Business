@@ -132,37 +132,82 @@
 
       <section>
         <div>
-            <h1>Book a 30 min Consultation Call</h1>
-            <p>Fill out this form and we will get in touch</p>
+            <h1 id="formtitle">Book a 30 min Consultation Call</h1>
+            <p id="formsubtitle">Fill out this form and we will get in touch</p>
             <br>
         </div>
 
         <form> 
-            <fieldset>
-                <div>
-                    <label>First Name</label>
-                    <input type="text" name="name" id="name">
+            <fieldset class="formgroup">
+                <div class="field">
+                    <label for="name"><strong>First Name</strong></label>
+                    <input type="text" name="name" id="name" required>
                 </div> 
                     
-                <div>
-                    <label>Last Name</label>
-                    <input type="text" name="lastname" id="lastname">
+                <div class="field">
+                    <label for="lastname"><strong>Last Name</strong></label>
+                    <input type="text" name="lastname" id="lastname" required>
                 </div> 
-
-                <div>
-                    <label>Email</label> 
-                    <input type="email" name="email" id="email">
+            </fieldset>
+                <div class="field">
+                    <label for="email"><strong>Email</strong></label> 
+                    <input type="email" name="email" id="email" required>
                 </div> 
-
-                <div> 
-                    <label>How do you assess the stage of development of your digital business?</label> 
+           
+                <div class="field"> 
+                    <label for ><strong>How do you assess the stage of development of your digital business?</strong></label> 
+                    <br>
+                    <br>
                     <label><input type="radio" name="stagebusiness" value="startup" checked>Start Up</label> 
                     <label><input type="radio" name="stagebusiness" value="emerging">Emerging</label>
                     <label><input type="radio" name="stagebusiness" value="evolving">Evolving</label>
                     <label><input type="radio" name="stagebusiness" value="evolving">Mature</label>
                 </div>
+                <div class="field">
+                    <label for="preferredtime"><strong>What is the preferred time to schedule a meeting</strong></label> 
+                </div> 
+                    <select id="preferredtime">
+                    <option>Select</option>
+                    <option>Morning</option>
+                    <option>Afternoon</option>
+                    <option>Evening</option>
+                </select> 
+                </div>
+                <fieldset class="formgroup">
+                    <div class="field">
+                        <label for="digitalchannels"><strong>Which digital channels does your business actively operate in?</strong></label>
+                        <br>
+                        <br>
+                        <input type="checkbox" id="digitalchannels" name="digitalchannels" value="website">
+                        <label for="digitalchannels">Web Site</label>
+                        <input type="checkbox" id="digitalchannels" name="digitalchannels" value="instagram">
+                        <label for="digitalchannels">Instagram</label>
+                        <input type="checkbox" id="digitalchannels" name="digitalchannels" value="facebook">
+                        <label for="digitalchannels">Facebook</label>
+                        <input type="checkbox" id="digitalchannels" name="digitalchannels" value="youtube">
+                        <label for="digitalchannels">Youtube</label>
+                        <input type="checkbox" id="digitalchannels" name="digitalchannels" value="blog">
+                        <label for="digitalchannels">Blog</label>
+                        <input type="checkbox" id="digitalchannels" name="digitalchannels" value="emailmarketing">
+                        <label for="digitalchannels">Email Marketing</label>
+                        <input type="checkbox" id="digitalchannels" name="digitalchannels" value="none">
+                        <label for="digitalchannels">None</label>
 
-            </fieldset>
+
+                    </div>
+
+
+                </fieldset>
+                    <div class="field">
+                    <br> 
+                    <label><strong>Please write here everything you think is relevant for us to know about your business, goals, additional services etc..</strong></label>    
+                    <textarea row="6" style="width: 26em" id="comment" name="comment"></textarea>     
+            </div>
+
+            <button class="formbutton" type="submit">Finished</button>
+
+           
+
 
 
         </form>
