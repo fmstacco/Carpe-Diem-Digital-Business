@@ -302,7 +302,7 @@ hr {
 }
 
 footer {
-    height: 350px;
+    height: 50px;
 }
 
 .social-networks {
@@ -329,27 +329,32 @@ footer {
     height: 700px;
     font-family: Roboto Slab, sans-serif;
     font-size: 1em;
-    color:#F4C8C8;
+    color:#f7f0ef;
     position: relative; 
+    margin-top: 2%;
     }
 
 .element-form {
 position: absolute;
+height: 750px;
+margin-top: 2%;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+background-color: #F4C8C8;
+border-radius: 10px;
 }
 
     #formtitle {
         font-family:  Roboto Slab, sans-serif;
         color:#222D44;
-        margin-left: 7%;
+        margin-left: 15%;
     }
 
 #formsubtitle {
     font-family:  Roboto Slab, sans-serif;
     color:#222D44;
-    margin-left: 10%;
+    margin-left: 25%;
 }
 
 .formgroup {
@@ -369,6 +374,11 @@ input, select, textarea {
     font-size: 1em;
     color: #222D44;
     border-radius: 5px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
     }
 
     .field {
