@@ -10,7 +10,7 @@
 body {
     font-family: Roboto Slab, sans-serif;
     font-weight: 400;
-    color: #3a3a3a;
+    color: #222D44;
     background-color: #f7f0ef;
 }
 
@@ -19,7 +19,7 @@ h1, h2 {
     font-family: "Roboto Slab", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #222D44;
 }
 
 nav { 
@@ -200,6 +200,7 @@ nav {
 }
 
 #services {
+    width: 100%;
     height: 600px;
     background-color:#222D44;
     color:#F4C8C8;
@@ -300,26 +301,6 @@ hr {
     background-color: #F4C8C8;
     transition: 1s ease;
 }
-
-footer {
-    height: 50px;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
 
 
 
@@ -422,3 +403,59 @@ input, select, textarea {
     .formbutton, select{
         cursor: pointer;
     }
+
+   
+
+.container-footer {
+    background-color: #f7f0ef;
+    width: 100%;
+    height: 500px;
+    font-family: Roboto Slab, sans-serif;
+    font-size: 1em;
+    color:#f7f0ef;
+    position: relative; 
+    margin-top: 2%;
+    text-align: center;
+    }
+
+.element-footer {
+position: absolute;
+height: 300px;
+width: 100%;
+margin-top: 2%;
+top: 20%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: #222D44;
+}
+
+.footer h2 { 
+text-align: center;
+color:#f7f0ef;
+font-size: 110%;
+text-decoration:none;
+}
+
+.footer h3 { 
+text-align: center;
+color:#F4C8C8;
+font-size: 100%;
+}
+
+.footer h4 { 
+text-align: center;
+color:#F4C8C8;
+font-size: 100%;
+}
+
+.social > li {
+display: inline;
+}
+
+.social i {
+font-size: 160%;
+margin: 1%;
+padding: 5%;
+color: #F4C8C8;;
+     }
+
