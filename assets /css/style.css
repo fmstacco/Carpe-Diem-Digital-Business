@@ -30,9 +30,8 @@ nav {
 
     ul {
         padding:0;
-        margin: 0 0 0 150px;
-        list-style: none;
-        margin-right: 35px;
+          list-style: none;
+       
     }
 
     li {
@@ -96,7 +95,7 @@ nav {
             }
             
             .section-about {
-                height:600px;   
+            
                 background-color: #f7f0ef;
                 padding-top: 0px;
                 margin-top: 0px;
@@ -133,22 +132,26 @@ nav {
                           }
 
 .text-about {
-    float: left;
-    width: 500px;
     text-align: left;
     margin-left: 50px;
 }
 
-.image-about {
-    float: right;
-    width: 30%;
-    margin-right: 40px;
-    }
 
 .image-about img {
     width: 80%;
     height: auto;
+    
 }
+
+.image-about {
+    flex:1;
+    }
+
+
+.about-new{ 
+    display: flex; align-items: center; 
+    justify-content: center;}
+
 
 .content-about .text-about h3 { 
     margin-top: 25px;
@@ -192,10 +195,10 @@ nav {
     }
     
 .content-about {
-    float:none;
     width: 100%;
     display: block;
     margin:auto;
+    flex: 1;
 }
 
 .services {
@@ -437,12 +440,11 @@ justify-content: center;
 
 .social-links ul { 
    padding: 0;
-   margin: 0 0 0 150px; 
    list-style: none;
-   margin-right: 35px; 
    display: flex;
   justify-content: center
-}
+  }
+
 
 .social-links li {
     color: #F4C8C8;
@@ -450,8 +452,11 @@ justify-content: center;
     size: 160%;
       }
 
-   
-    
+     
 
-
+      .fab {
+        font-size: 30px;
+        margin: 8px;
+        color: #F4C8C8;;
+        }
 
