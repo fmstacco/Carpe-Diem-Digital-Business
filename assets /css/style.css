@@ -405,39 +405,56 @@ input, select, textarea {
 
 
 
-.section-footer {
-height: 100%;
-width: 100%;
-background-color: #222D44;
-box-sizing: border-box;
+.footer-container {
+    height: 300px;
+    background-color: #222D44;
 }
 
-.footer h2 { 
+.footer-content {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.footer-content h2 { 
 text-align: center;
 color:#f7f0ef;
 font-size: 110%;
 text-decoration:none;
 }
 
-.footer h3 { 
+.footer-content h3 { 
 text-align: center;
 color:#F4C8C8;
 font-size: 100%;
-}
-
-.footer h4 { 
-text-align: center;
-color:#F4C8C8;
-font-size: 100%;
-}
-
-.social  {
-display: flex;
-padding: 0;
-margin: 0 0 0 150px;
-list-style: none;
-align-items: center;
 justify-content: center;
 }
+
+.footer-content h4 { 
+text-align: center;
+color:#F4C8C8;
+font-size: 100%;
+justify-content: center;
+}
+
+.social-links ul { 
+   padding: 0;
+   margin: 0 0 0 150px; 
+   list-style: none;
+   margin-right: 35px; 
+   display: flex;
+  justify-content: center
+}
+
+.social-links li {
+    color: #F4C8C8;
+    align-items: center;
+    size: 160%;
+      }
+
+   
+    
+
 
 
