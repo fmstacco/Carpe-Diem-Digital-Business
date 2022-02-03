@@ -313,15 +313,22 @@ hr {
     }
 
 .element-form {
-position: absolute;
+position: relative;
 height: 750px;
-margin-top: 2%;
-top: 50%;
+margin-top: auto;
+top: 54%;
 left: 50%;
 transform: translate(-50%, -50%);
 background-color: #F4C8C8;
 border-radius: 10px;
+margin-bottom: 200px;
+align-content: center;
+margin-left: 40px;
+margin-right: 350px;
+padding-left: 30px;
 }
+
+
 
     #formtitle {
         font-family:  Roboto Slab, sans-serif;
@@ -402,7 +409,10 @@ input, select, textarea {
     }
 
    
+footer {
+    margin-top: 54px;
 
+}
 
 
 .footer-container {
@@ -460,3 +470,6 @@ justify-content: center;
         color: #F4C8C8;;
         }
 
+.copyright {
+    text-align: center;
+}
