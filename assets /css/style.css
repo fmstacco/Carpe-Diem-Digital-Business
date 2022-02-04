@@ -480,4 +480,11 @@ justify-content: center;
 
 .copyright {
     text-align: center;
+    }
+
+
+.services-page {
+display: flex;
+justify-content: space-evenly;
+margin-top: 8%;
 }
