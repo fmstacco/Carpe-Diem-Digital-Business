@@ -6,3 +6,5 @@
 <h2>Carpe Diem Digital Business</h2>
 <p> This website was built to advertise the company <strong>Carpe Diem Digital Business</strong>. A company developed by a woman who wants to offer business services for other women</p>
 
+<h4 href="https://fmstacco.github.io/Carpe-Diem-Digital-Business/index.html">Click here to view the website</h4> 
+
